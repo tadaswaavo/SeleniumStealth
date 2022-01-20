@@ -346,6 +346,6 @@ class SeleniumStealth
     {
         $this->evaluateOnNewDocument(self::loadFileData($this->jsPath . '/hook_remove_cdc_props.js'));
         $this->evaluateOnNewDocument(self::loadFileData($this->jsPath  . '/max_touch_points.js'));
-        $this->evaluateOnNewDocument(self::loadFileData($this->jsPath . '/navigator.brave.js'));
+        //$this->evaluateOnNewDocument(self::loadFileData($this->jsPath . '/navigator.brave.js'));
     }
 }
